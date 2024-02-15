@@ -9,5 +9,6 @@ export class LoginComponent {
   btnClick(){
     let buyPack = new BuyPackage();
     buyPack.buyBtnClicked();
-  }
+    console.log('login component method raised');
+ }
 }

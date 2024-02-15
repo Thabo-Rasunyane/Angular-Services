@@ -9,6 +9,7 @@ export class HeaderComponent {
   btnClick(){
     let buyPack = new BuyPackage();
     buyPack.buyBtnClicked();
+    console.log('header component method raised');
   }
 
 }

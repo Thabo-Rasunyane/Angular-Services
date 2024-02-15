@@ -11,6 +11,7 @@ export class SubscribeComponent {
   btnClick(){
     let buyPack = new BuyPackage();
     buyPack.buyBtnClicked();
+    console.log('subscribe component method raised');
 
   }
 
